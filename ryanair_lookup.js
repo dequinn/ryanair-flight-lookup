@@ -10,7 +10,7 @@ app.use(express.json());
 
 /* ---------------- CONFIG ---------------- */
 
-const API_KEY = process.env.API_KEY || "CHANGE_THIS_TO_LONG_RANDOM_STRING";
+const API_KEY = process.env.API_KEY || "dffd5644719gjzfHdwk4";
 const PORT = process.env.PORT || 3000;
 const LOG_FILE = path.join(__dirname, "flight_log.json");
 
