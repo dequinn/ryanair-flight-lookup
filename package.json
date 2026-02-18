@@ -1,0 +1,14 @@
+{
+  "name": "ryanair-flight-lookup",
+  "version": "1.0.0",
+  "description": "Express server to query Ryanair availability API and return flight schedule by flight number",
+  "main": "ryanair_lookup.js",
+  "scripts": {
+    "start": "node ryanair_lookup.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.5.1",
+    "cors": "^2.8.5"
+  }
+}
